@@ -2,7 +2,7 @@ from lib.BaseHealth import *
 import sys
 
 
-key = '3e364c9f0bf8e2d9a4e69e2d980f23db'
+key = 'your key'
 bh = API(key)
 
 disease= bh.getCuratedContent( sys.argv[1] )
